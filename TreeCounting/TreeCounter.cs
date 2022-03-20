@@ -3,7 +3,7 @@ namespace calc.TreeCounting
 {
     public class TreeCounter
     {
-        /*
+        
        
         public static void Main(string[] args)
         {
@@ -50,7 +50,7 @@ namespace calc.TreeCounting
             return node._value + count ;
         }
 
-        */
+       
 
     }
 }

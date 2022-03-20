@@ -1,10 +1,10 @@
-﻿# Bubble Sort
+﻿# TreeCounter
 
 ## Problem
-Take in a given Array of numbers that are unsorted
+Given an treestructer where every node has a value
 
 ## Answer
-Return an Array of the same numbers but sorted
+Return a sum of all the values
 
 ## How
-Use loop to go threw array if the bigger number from the unsorted array is behind a smaller number
+use recursive function to add up all the values into counter

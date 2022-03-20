@@ -1,10 +1,13 @@
-﻿# TreeCounter
+﻿# TreeNode
 
 ## Problem
+
 Given an treestructer where every node has a value
 
 ## Answer
-Return a sum of all the values
+
+Return the requested number
 
 ## How
-use recursive function to add up all the values into counter
+
+use recursive function to search threw the given treestructer wuth the goal of finding the requested number and returning it
