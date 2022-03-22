@@ -5,7 +5,7 @@ namespace calc.TreeCounting
     {
         
        
-        public static void Main(string[] args)
+        public static void main(string[] args)
         {
 
             TreeNode a = new TreeNode(2);

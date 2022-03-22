@@ -11,6 +11,7 @@
     <None Remove="QuickSort\" />
     <None Remove="TreeCounting\" />
     <None Remove="Anagram\" />
+    <None Remove="RepeatingValues\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BinarySory\" />
@@ -18,5 +19,6 @@
     <Folder Include="QuickSort\" />
     <Folder Include="TreeCounting\" />
     <Folder Include="Anagram\" />
+    <Folder Include="ArrayWalking\" />
   </ItemGroup>
 </Project>

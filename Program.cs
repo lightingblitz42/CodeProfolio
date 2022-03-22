@@ -6,7 +6,7 @@ namespace calc
     public static class Programd
     
     {
-       
+
         public static  int othernum, max, limit, othermax, startingthing;
         
        public static int[] numbers = new int[10]
@@ -22,19 +22,22 @@ namespace calc
                 1
         };
         public static string str1, str2, str3, str4, str5;
-       
-//        public static void Main(string[] args)
-  //      {
-            
-     //       Console.WriteLine("h");
-      //      othermax = numbers.Length;
+
+        public static void Main(string[] args)
+        {
+            ArrayWalking.LargestNumberUnder100.main(args);
+          //  ArrayWalking.DoesHaveRepeatingValues.main(args);
+
+            //       Console.WriteLine("h");
+            //      othermax = numbers.Length;
             //calc.Quicksort.sortQuick();
             //calc.BinarySort.binarySortm();
             //calc.MergeSort.sortMerge();
             //calc.Bogosort.bogoSort();
-      //      calc.CheckifAnogram.startGram();
-          
+            //      calc.CheckifAnogram.startGram();
 
+
+        }
 
         }
         /*
@@ -209,3 +212,4 @@ namespace calc
   */
 
     }
+    

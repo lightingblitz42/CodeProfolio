@@ -3,7 +3,7 @@ namespace calc.TreeCounting
 {
     public class TreeDoesNodeExist
     {
-        public static void Main(string[] args)
+        public static void main(string[] args)
         {
 
             TreeNode a = new TreeNode(6);
