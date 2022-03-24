@@ -25,7 +25,8 @@ namespace calc
 
         public static void Main(string[] args)
         {
-            ArrayWalking.LargestNumberUnder100.main(args);
+            FindGreatestSetOfNumbers.findGreatestSetOfNumbers();
+           // ArrayWalking.LargestNumberUnder100.main(args);
           //  ArrayWalking.DoesHaveRepeatingValues.main(args);
 
             //       Console.WriteLine("h");
