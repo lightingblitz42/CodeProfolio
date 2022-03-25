@@ -23,18 +23,16 @@ namespace calc.ArrayWalking
             bool result2 = containsRepeatsByHashSet(numbers);
            // bool result3 = containsRepeatsByForLoops(numbers);
             Console.WriteLine(result1);
-            
-        }
+            /**
+ * Return true is you find any number more then once.
+ * - Two Pointers (two for loops)
+ * - Hash Set
+ */
 
-        /**
-         * Return true is you find any number more then once.
-         * - Two Pointers (two for loops)
-         * - Hash Set
-         */
+        }
         public static int containsRepeatsByRecursion(int[] numbers, int inputlength, int k)
         {
             if(k >= numbers.Length){//this is the thing that closes it off
-                
                 return 0;
             }
             if (inputlength <= -1)//if the first thingy is -1
@@ -42,23 +40,17 @@ namespace calc.ArrayWalking
                 return containsRepeatsByRecursion(numbers, inputlength = numbers.Length - 1, k + 1);
             }
             if (k != inputlength)
-            {
-                
+            {    
                 if (numbers[inputlength] == numbers[k])
                 {
                     return numbers[k];
                 }
-
             }
-
-
-            
-
             return containsRepeatsByRecursion(numbers, inputlength - 1, k);
-          //  return  containsRepeatsByRecursion(numbers, inputlength--, k);
+         
 
         }
-        /*public static bool containsRepeatsByForLoops(int[] numbers)
+        public static bool containsRepeatsByForLoops(int[] numbers)
         {
                         for (int i = 0; i < numbers.Length - 1; i++)
             {
@@ -80,7 +72,6 @@ namespace calc.ArrayWalking
             return false;
             
         }
-        */
 
         public static bool containsRepeatsByHashSet(int[] numbers)
         {
