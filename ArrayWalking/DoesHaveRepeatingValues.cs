@@ -33,30 +33,24 @@ namespace calc.ArrayWalking
          */
         public static int containsRepeatsByRecursion(int[] numbers, int inputlength, int k)
         {
-            if(k >= numbers.Length){
+            if(k >= numbers.Length){//this is the thing that closes it off
                 
                 return 0;
             }
-            if (inputlength <= -1)
+            if (inputlength <= -1)//if the first thingy is -1
             {
-                Console.WriteLine(inputlength);
                 return containsRepeatsByRecursion(numbers, inputlength = numbers.Length - 1, k + 1);
             }
             if (k != inputlength)
             {
                 
-                Console.WriteLine(k + "f" + inputlength);
                 if (numbers[inputlength] == numbers[k])
                 {
-                    Console.WriteLine(k + "t" + numbers.Length);
                     return numbers[k];
                 }
 
             }
-            else
-            {
-                return containsRepeatsByRecursion(numbers, inputlength - 1, k);
-            }
+
 
             
 
