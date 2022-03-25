@@ -25,9 +25,10 @@ namespace calc
 
         public static void Main(string[] args)
         {
-            FindGreatestSetOfNumbers.findGreatestSetOfNumbers();
+           // Factorials.factorials();
+           // FindGreatestSetOfNumbers.findGreatestSetOfNumbers();
            // ArrayWalking.LargestNumberUnder100.main(args);
-          //  ArrayWalking.DoesHaveRepeatingValues.main(args);
+           ArrayWalking.DoesHaveRepeatingValues.main(args);
 
             //       Console.WriteLine("h");
             //      othermax = numbers.Length;

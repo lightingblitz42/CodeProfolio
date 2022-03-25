@@ -120,7 +120,7 @@ namespace calc
 
             
             return Values[Values.Count - 1];
-            //return goAround[goAround.Count - 1];
+            
 
 
 
