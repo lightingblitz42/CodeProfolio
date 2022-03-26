@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 namespace calc.ArrayWalking
 {
     public class DoesHaveRepeatingValues
@@ -8,7 +9,7 @@ namespace calc.ArrayWalking
         {
             int[] numbers = new int[9]
             {
-            -8,
+            8,
             0,
             4,
             3,
@@ -16,13 +17,13 @@ namespace calc.ArrayWalking
            23,
            2,
           9,
-            8
+            9
             };
 
-            int result1 = containsRepeatsByRecursion(numbers, numbers.Length - 1, 0);
+            //int result1 = containsRepeatsByRecursion(numbers, numbers.Length - 1, 0);
             bool result2 = containsRepeatsByHashSet(numbers);
            // bool result3 = containsRepeatsByForLoops(numbers);
-            Console.WriteLine(result1);
+          //  Console.WriteLine(result1);
             /**
  * Return true is you find any number more then once.
  * - Two Pointers (two for loops)
@@ -64,6 +65,7 @@ namespace calc.ArrayWalking
                     {
                         if (numbers[i] == numbers[j])
                         {
+                           
                             return true;
                         }
                     }
@@ -75,6 +77,24 @@ namespace calc.ArrayWalking
 
         public static bool containsRepeatsByHashSet(int[] numbers)
         {
+            foreach (var items in numbers)
+            {
+                Console.Write(items + ", ");
+            }
+            Console.WriteLine("");
+            HashSet<int> numbs = new HashSet<int>(numbers);
+            foreach (var item in numbs)
+            {
+                Console.Write(item + ", ");
+            }
+            Console.WriteLine("");
+
+            if (numbers.Length != numbs.Count)
+            {
+                Console.WriteLine("True");
+                return true;
+            }
+            Console.WriteLine("False");
             return false;
         }
     }
