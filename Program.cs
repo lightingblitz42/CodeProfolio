@@ -25,10 +25,13 @@ namespace calc
 
         public static void Main(string[] args)
         {
+            calc.LinkedList.PrintLinkedList.main(args);
+            //calc.Graph.ContainesLoop.main(args);
+            //ArrayWalking.FindHighestOccurrence.main();
            // Factorials.factorials();
            // FindGreatestSetOfNumbers.findGreatestSetOfNumbers();
            // ArrayWalking.LargestNumberUnder100.main(args);
-           ArrayWalking.DoesHaveRepeatingValues.main(args);
+          // ArrayWalking.DoesHaveRepeatingValues.main(args);
 
             //       Console.WriteLine("h");
             //      othermax = numbers.Length;

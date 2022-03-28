@@ -12,6 +12,8 @@
     <None Remove="TreeCounting\" />
     <None Remove="Anagram\" />
     <None Remove="RepeatingValues\" />
+    <None Remove="Graph\" />
+    <None Remove="LinkedList\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BinarySory\" />
@@ -20,5 +22,7 @@
     <Folder Include="TreeCounting\" />
     <Folder Include="Anagram\" />
     <Folder Include="ArrayWalking\" />
+    <Folder Include="Graph\" />
+    <Folder Include="LinkedList\" />
   </ItemGroup>
 </Project>
