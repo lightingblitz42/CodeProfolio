@@ -11,6 +11,7 @@ namespace calc.LinkedList
 
         public LinkedNode(int value)
         {
+            
             _value = value;
             _next = null;
             _before = null;
