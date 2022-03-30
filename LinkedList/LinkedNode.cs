@@ -5,7 +5,7 @@ namespace calc.LinkedList
 {
     public class LinkedNode
     {
-        public int _value { get; }
+        public int _value { get; set; }
         public LinkedNode _next { get; set; }
         public LinkedNode _before { get; set; }
 
