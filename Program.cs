@@ -25,15 +25,18 @@ namespace calc
 
         public static void Main(string[] args)
         {
-            calc.LinkedList.PrintLinkedList.main(args);
-            //calc.Graph.ContainesLoop.main(args);
-            //ArrayWalking.FindHighestOccurrence.main();
+            calc.ArrayWalking.LeetcodeTwoSumProb.TwoSumProb();
+            //  calc.TreeCounting.BinaryTree.binaryTree();
+           // calc.LinkedList.DoublyLinkedlistsort.doublyLinkedlistsort();
+           // calc.LinkedList.PrintLinkedList.main(args);
+           //calc.Graph.ContainesLoop.main(args);
+           //ArrayWalking.FindHighestOccurrence.main();
            // Factorials.factorials();
            // FindGreatestSetOfNumbers.findGreatestSetOfNumbers();
            // ArrayWalking.LargestNumberUnder100.main(args);
-          // ArrayWalking.DoesHaveRepeatingValues.main(args);
+           // ArrayWalking.DoesHaveRepeatingValues.main(args);
 
-            //       Console.WriteLine("h");
+            
             //      othermax = numbers.Length;
             //calc.Quicksort.sortQuick();
             //calc.BinarySort.binarySortm();
