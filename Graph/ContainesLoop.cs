@@ -4,7 +4,7 @@ namespace calc.Graph
 {
     public class ContainesLoop
     {
-        public static void main(string[] args)
+        public static void fain(string[] args)
         {
             Console.WriteLine("Problem1:" + problem1());
             Console.WriteLine("Problem2:" + problem2());

@@ -25,7 +25,10 @@ namespace calc
 
         public static void Main(string[] args)
         {
-            calc.ArrayWalking.ValidPalindromeII.validPalindromeII();
+            calc.TreeCounting.Node.boni();
+           // calc.EX.eX();
+           
+            //calc.ArrayWalking.ValidPalindromeII.validPalindromeII();
             //  calc.TreeCounting.BinaryTree.binaryTree();
            // calc.LinkedList.DoublyLinkedlistsort.doublyLinkedlistsort();
            // calc.LinkedList.PrintLinkedList.main(args);
