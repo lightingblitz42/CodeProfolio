@@ -25,7 +25,9 @@ namespace calc
 
         public static void Main(string[] args)
         {
-            calc.LeetCodeProgs.ALLSum.allSum();
+            calc.LeetCodeProgs.ThreeSumMedium.threeSumMedium();
+            //calc.LeetCodeProgs.Combination1.combination1();
+            //calc.LeetCodeProgs.ALLSum.allSum();
             //calc.TreeCounting.BinaryTree.main(args);
             // calc.TreeCounting.Node.boni();
             // calc.EX.eX();
