@@ -8,8 +8,9 @@ namespace calc.TreeCounting
         {
 
             
-            int[] nums = new int[] { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130 };
+            int[] nums = new int[] { 5,3,1,4,8,7,9 };
             Bina a = new Bina(nums);
+            Console.WriteLine(a.left.left.value);
 
 
 

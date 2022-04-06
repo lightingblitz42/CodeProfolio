@@ -71,6 +71,7 @@ namespace calc.LinkedList
             Console.WriteLine("");
 
 
+
         }
     }
 }

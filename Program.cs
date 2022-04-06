@@ -25,21 +25,23 @@ namespace calc
 
         public static void Main(string[] args)
         {
-            calc.TreeCounting.Node.boni();
-           // calc.EX.eX();
-           
+            calc.LeetCodeProgs.ALLSum.allSum();
+            //calc.TreeCounting.BinaryTree.main(args);
+            // calc.TreeCounting.Node.boni();
+            // calc.EX.eX();
+
             //calc.ArrayWalking.ValidPalindromeII.validPalindromeII();
             //  calc.TreeCounting.BinaryTree.binaryTree();
-           // calc.LinkedList.DoublyLinkedlistsort.doublyLinkedlistsort();
-           // calc.LinkedList.PrintLinkedList.main(args);
-           //calc.Graph.ContainesLoop.main(args);
-           //ArrayWalking.FindHighestOccurrence.main();
-           // Factorials.factorials();
-           // FindGreatestSetOfNumbers.findGreatestSetOfNumbers();
-           // ArrayWalking.LargestNumberUnder100.main(args);
-           // ArrayWalking.DoesHaveRepeatingValues.main(args);
+            // calc.LinkedList.DoublyLinkedlistsort.doublyLinkedlistsort();
+            // calc.LinkedList.PrintLinkedList.main(args);
+            //calc.Graph.ContainesLoop.main(args);
+            //ArrayWalking.FindHighestOccurrence.main();
+            // Factorials.factorials();
+            // FindGreatestSetOfNumbers.findGreatestSetOfNumbers();
+            // ArrayWalking.LargestNumberUnder100.main(args);
+            // ArrayWalking.DoesHaveRepeatingValues.main(args);
 
-            
+
             //      othermax = numbers.Length;
             //calc.Quicksort.sortQuick();
             //calc.BinarySort.binarySortm();

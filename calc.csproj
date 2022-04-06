@@ -14,6 +14,7 @@
     <None Remove="RepeatingValues\" />
     <None Remove="Graph\" />
     <None Remove="LinkedList\" />
+    <None Remove="Anagram %28copy%29\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BinarySory\" />
@@ -24,5 +25,6 @@
     <Folder Include="ArrayWalking\" />
     <Folder Include="Graph\" />
     <Folder Include="LinkedList\" />
+    <Folder Include="LeetCodeProgs\" />
   </ItemGroup>
 </Project>
