@@ -25,7 +25,8 @@ namespace calc
 
         public static void Main(string[] args)
         {
-            calc.LeetCodeProgs.MedienOfTwoSortedArraysHARD.medienOfTwoSortedArraysHARD();
+            calc.LeetCodeProgs.FindMissingPositiveHARD.findMissingPositiveHARD();
+            //calc.LeetCodeProgs.MedienOfTwoSortedArraysHARD.medienOfTwoSortedArraysHARD();
            // calc.LeetCodeProgs.ThreeSumMedium.threeSumMedium();
             //calc.LeetCodeProgs.Combination1.combination1();
             //calc.LeetCodeProgs.ALLSum.allSum();
