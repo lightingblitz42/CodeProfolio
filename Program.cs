@@ -25,10 +25,14 @@ namespace calc
 
         public static void Main(string[] args)
         {
-            calc.LeetCodeProgs.FindCouplesHARD.findCouplesHARD();
+            calc.LeetCodeProgs.LongestSubStringWithoutRep.longestSubStringWithoutRep();
+            //calc.LeetCodeProgs.LongestSubsringWithoutRepetingChars.longestSubsringWithoutRepetingChars();
+            //calc.LeetCodeProgs.FindDuplicate.findDuplicate();
+            //calc.LeetCodeProgs.FindCouplesHARD.findCouplesHARD();
+            //Console.WriteLine("Answer:" + calc.LeetCodeProgs.LowestValue.FirstMissingPositive(testDataEasy));
             //calc.LeetCodeProgs.FindMissingPositiveHARD.findMissingPositiveHARD();
             //calc.LeetCodeProgs.MedienOfTwoSortedArraysHARD.medienOfTwoSortedArraysHARD();
-           // calc.LeetCodeProgs.ThreeSumMedium.threeSumMedium();
+            // calc.LeetCodeProgs.ThreeSumMedium.threeSumMedium();
             //calc.LeetCodeProgs.Combination1.combination1();
             //calc.LeetCodeProgs.ALLSum.allSum();
             //calc.TreeCounting.BinaryTree.main(args);
