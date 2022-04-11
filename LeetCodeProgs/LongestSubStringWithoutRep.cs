@@ -21,7 +21,7 @@ namespace calc.LeetCodeProgs
                     }
                     else
                     {
-                        Console.WriteLine(temphighest);
+                        
                         if (temphighest < dd.Count)
                         {
                             temphighest = dd.Count;

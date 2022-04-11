@@ -25,7 +25,8 @@ namespace calc
 
         public static void Main(string[] args)
         {
-            calc.LeetCodeProgs.LongestSubStringWithoutRep.longestSubStringWithoutRep();
+            calc.LeetCodeProgs.subarraywithonlyamount.Subarraywithonlyamount();
+            //calc.LeetCodeProgs.LongestSubStringWithoutRep.longestSubStringWithoutRep();
             //calc.LeetCodeProgs.LongestSubsringWithoutRepetingChars.longestSubsringWithoutRepetingChars();
             //calc.LeetCodeProgs.FindDuplicate.findDuplicate();
             //calc.LeetCodeProgs.FindCouplesHARD.findCouplesHARD();
