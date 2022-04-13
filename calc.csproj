@@ -15,6 +15,10 @@
     <None Remove="Graph\" />
     <None Remove="LinkedList\" />
     <None Remove="Anagram %28copy%29\" />
+    <None Remove="LeetCodeProgs\CombinationProg\" />
+    <None Remove="LeetCodeProgs\FactorialsFilesProg\" />
+    <None Remove="LeetCodeProgs\FindCouplesProg\" />
+    <None Remove="LeetCodeProgs\FindDuplicateProg\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BinarySory\" />
@@ -26,5 +30,9 @@
     <Folder Include="Graph\" />
     <Folder Include="LinkedList\" />
     <Folder Include="LeetCodeProgs\" />
+    <Folder Include="LeetCodeProgs\XNOTDONEYETCombinationProg\" />
+    <Folder Include="LeetCodeProgs\FactorialsFilesProg\" />
+    <Folder Include="LeetCodeProgs\FindCouplesProg\" />
+    <Folder Include="LeetCodeProgs\FindDuplicateProg\" />
   </ItemGroup>
 </Project>
