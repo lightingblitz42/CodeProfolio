@@ -19,6 +19,13 @@
     <None Remove="LeetCodeProgs\FactorialsFilesProg\" />
     <None Remove="LeetCodeProgs\FindCouplesProg\" />
     <None Remove="LeetCodeProgs\FindDuplicateProg\" />
+    <None Remove="LeetCodeProgs\FindMissingPositiveFile\" />
+    <None Remove="LeetCodeProgs\TwoSumProb\" />
+    <None Remove="LeetCodeProgs\LongestSubStringWithoutRepetingChars\" />
+    <None Remove="LeetCodeProgs\LongestStringWithoutRep\" />
+    <None Remove="LeetCodeProgs\LowestValue\" />
+    <None Remove="LeetCodeProgs\MeidienOfTwoSortedArrays\" />
+    <None Remove="LeetCodeProgs\SubarraywithOnlyAmount\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BinarySory\" />
@@ -34,5 +41,12 @@
     <Folder Include="LeetCodeProgs\FactorialsFilesProg\" />
     <Folder Include="LeetCodeProgs\FindCouplesProg\" />
     <Folder Include="LeetCodeProgs\FindDuplicateProg\" />
+    <Folder Include="LeetCodeProgs\FindMissingPositiveFile\" />
+    <Folder Include="LeetCodeProgs\TwoSumProb\" />
+    <Folder Include="LeetCodeProgs\LongestSubStringWithoutRepetingChars\" />
+    <Folder Include="LeetCodeProgs\LongestStringWithoutRep\" />
+    <Folder Include="LeetCodeProgs\LowestValue\" />
+    <Folder Include="LeetCodeProgs\MeidienOfTwoSortedArrays\" />
+    <Folder Include="LeetCodeProgs\SubarraywithOnlyAmount\" />
   </ItemGroup>
 </Project>
