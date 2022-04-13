@@ -26,6 +26,10 @@
     <None Remove="LeetCodeProgs\LowestValue\" />
     <None Remove="LeetCodeProgs\MeidienOfTwoSortedArrays\" />
     <None Remove="LeetCodeProgs\SubarraywithOnlyAmount\" />
+    <None Remove="LeetCodeProgs\ThreeSum\" />
+    <None Remove="LeetCodeProgs\ThreeSumMediuim\" />
+    <None Remove="LeetCodeProgs\ValidPalindomell\" />
+    <None Remove="LeetCodeProgs\WordSearch\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BinarySory\" />
@@ -48,5 +52,9 @@
     <Folder Include="LeetCodeProgs\LowestValue\" />
     <Folder Include="LeetCodeProgs\MeidienOfTwoSortedArrays\" />
     <Folder Include="LeetCodeProgs\SubarraywithOnlyAmount\" />
+    <Folder Include="LeetCodeProgs\ThreeSum\" />
+    <Folder Include="LeetCodeProgs\ThreeSumMediuim\" />
+    <Folder Include="LeetCodeProgs\ValidPalindomell\" />
+    <Folder Include="LeetCodeProgs\WordSearch\" />
   </ItemGroup>
 </Project>
