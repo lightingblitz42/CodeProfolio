@@ -30,6 +30,7 @@
     <None Remove="LeetCodeProgs\ThreeSumMediuim\" />
     <None Remove="LeetCodeProgs\ValidPalindomell\" />
     <None Remove="LeetCodeProgs\WordSearch\" />
+    <None Remove="LeetCodeProgs\Permutations\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BinarySory\" />
@@ -56,5 +57,6 @@
     <Folder Include="LeetCodeProgs\ThreeSumMediuim\" />
     <Folder Include="LeetCodeProgs\ValidPalindomell\" />
     <Folder Include="LeetCodeProgs\WordSearch\" />
+    <Folder Include="LeetCodeProgs\Permutations\" />
   </ItemGroup>
 </Project>
