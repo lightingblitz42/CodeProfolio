@@ -25,6 +25,8 @@ namespace calc
 
         public static void Main(string[] args)
         {
+            calc.LeetCodeProgs.Combinations.combinations();
+            //calc.LeetCodeProgs.LongestValueParenthisis.longestValueParenthisis();
             //calc.LeetCodeProgs.Permutations.
             //calc.LeetCodeProgs.Permutations.Permutations.myPermutations();
             //calc.LeetCodeProgs.WordSearch.wordSearch();
