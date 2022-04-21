@@ -13,7 +13,7 @@ namespace calc.LeetCodeProgs
 
             List<int> holder1 = new List<int>();
             List<int> holder2 = new List<int>();
-
+            
             for (int i = 0; i < charsOfS.Length; i++)
             {
 

@@ -21,11 +21,15 @@ namespace calc
                 6,
                 1
         };
+        public static int Factorialthis = 5;
         public static string str1, str2, str3, str4, str5;
 
         public static void Main(string[] args)
         {
-            calc.LeetCodeProgs.Combinations.combinations();
+            calc.IfPowerOfThree.ifPowerOfThree();
+           // calc.IfPowerOfTwo.ifPowerOfTwo();
+           // calc.LeetCodeProgs.factorialtest.Factorialtest(5, 5);
+            // calc.LeetCodeProgs.Combinations.hi();
             //calc.LeetCodeProgs.LongestValueParenthisis.longestValueParenthisis();
             //calc.LeetCodeProgs.Permutations.
             //calc.LeetCodeProgs.Permutations.Permutations.myPermutations();
