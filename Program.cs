@@ -23,10 +23,15 @@ namespace calc
         };
         public static int Factorialthis = 5;
         public static string str1, str2, str3, str4, str5;
-
+        public static int target = 4;
+        public static int[] nums = new int[] {1,9,4,3,7,5,3,6,2 };
         public static void Main(string[] args)
         {
-            calc.IfPowerOfThree.ifPowerOfThree();
+            SortandFind.TargetIndices(nums, target);
+            //findstartandendofprob.Findstartandendofprob();
+           // calc._sumfindaddtothis.find();
+            //calc.IsNumPandrlim.isNumPandrlim();
+            //calc.IfPowerOfThree.ifPowerOfThree();
            // calc.IfPowerOfTwo.ifPowerOfTwo();
            // calc.LeetCodeProgs.factorialtest.Factorialtest(5, 5);
             // calc.LeetCodeProgs.Combinations.hi();
