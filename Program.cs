@@ -27,7 +27,8 @@ namespace calc
         public static int[] nums = new int[] {1,9,4,3,7,5,3,6,2 };
         public static void Main(string[] args)
         {
-            GroupAnagrams.groupAnagrams();
+            LetterCombinationForPhoneNumber.letterCombinationForPhoneNumber();
+            
             //SortandFind.TargetIndices(nums, target);
             //findstartandendofprob.Findstartandendofprob();
            // calc._sumfindaddtothis.find();
@@ -78,176 +79,183 @@ namespace calc
         }
 
         }
-        /*
-        static void startsort()
+    /*
+    static void startsort()
+    {
+        for (int i = 0; i <= numbers.Length - 1; i++)
         {
-            for (int i = 0; i <= numbers.Length - 1; i++)
-            {
-                
-                    Console.Write(numbers[0 + i] + " ");
-                    
-                
-            }
-            Console.WriteLine("");
-            /*   foreach (int thing in numbers)
-               {
-                   Console.WriteLine(numbers[0 + startingthing]);
-                   startingthing++;
-             } 
+
+                Console.Write(numbers[0 + i] + " ");
 
 
-            startingthing = 0;
-                Sort();
-            
         }
-        static void Sort()
+        Console.WriteLine("");
+        /*   foreach (int thing in numbers)
+           {
+               Console.WriteLine(numbers[0 + startingthing]);
+               startingthing++;
+         } 
+
+
+        startingthing = 0;
+            Sort();
+
+    }
+    static void Sort()
+    {
+
+        max = numbers.Length - 1;
+
+
+        if (limit <= numbers.Length * 6)
         {
-           
-            max = numbers.Length - 1;
-           
-           
-            if (limit <= numbers.Length * 6)
+
+            if (numbers[0 + othernum] >= numbers[1 + othernum])
             {
+                int Execute1 = numbers[1 + othernum] - numbers[0 + othernum];
+                numbers[0 + othernum] += Execute1;
+                numbers[1 + othernum] -= Execute1;
 
-                if (numbers[0 + othernum] >= numbers[1 + othernum])
+                othernum++;
+                limit++;
+                if (othernum >= max)
                 {
-                    int Execute1 = numbers[1 + othernum] - numbers[0 + othernum];
-                    numbers[0 + othernum] += Execute1;
-                    numbers[1 + othernum] -= Execute1;
-
-                    othernum++;
-                    limit++;
-                    if (othernum >= max)
-                    {
-                        othernum = 0;
-                    }
-                    startsort();
+                    othernum = 0;
                 }
-                else
-                {
-                    othernum++;
-                    limit++;
-                    if (othernum >= max)
-                    {
-                        othernum = 0;
-                    }
-                    startsort();
-                }
-
+                startsort();
             }
             else
             {
-                Console.WriteLine("Done!");
+                othernum++;
+                limit++;
+                if (othernum >= max)
+                {
+                    othernum = 0;
+                }
+                startsort();
             }
-          
-            
+
+        }
+        else
+        {
+            Console.WriteLine("Done!");
         }
 
 
+    }
 
 
 
 
 
 
-        /*
-  string AAA = "Andrew   is the Coolest";
 
 
-  Console.WriteLine(AAA.ToLower());
-  Console.WriteLine(AAA.ToUpper());
-
-  Console.WriteLine(AAA.Trim());
+    /*
+string AAA = "Andrew   is the Coolest";
 
 
-  Console.WriteLine("put in - + * /");
-  string um = Console.ReadLine();
-  int number1;
-  int number2;
-  int anser;
-  //  int number2;
-  string stop = "start";
-  // string ey = "stop";
-  //This tells me what I write in console using ReadLine method
-  string[] names = new string[4] { "+", "-", "*", "/" };
-  //This is an array of strings!
+Console.WriteLine(AAA.ToLower());
+Console.WriteLine(AAA.ToUpper());
+
+Console.WriteLine(AAA.Trim());
+
+
+Console.WriteLine("put in - + * /");
+string um = Console.ReadLine();
+int number1;
+int number2;
+int anser;
+//  int number2;
+string stop = "start";
+// string ey = "stop";
+//This tells me what I write in console using ReadLine method
+string[] names = new string[4] { "+", "-", "*", "/" };
+//This is an array of strings!
 
 
 
 
-  if (um == names[0])
+if (um == names[0])
+{
+  Console.WriteLine("Write Your first Number");
+  string number1Str = Console.ReadLine();
+
+  if (int.TryParse(number1Str,out number1))
   {
-      Console.WriteLine("Write Your first Number");
-      string number1Str = Console.ReadLine();
+      Console.WriteLine("You wrote:" + number1);
+      Console.WriteLine("write the 2nd num");
+      string number2Str = Console.ReadLine();
 
-      if (int.TryParse(number1Str,out number1))
+      if(int.TryParse(number2Str, out number2))
       {
-          Console.WriteLine("You wrote:" + number1);
-          Console.WriteLine("write the 2nd num");
-          string number2Str = Console.ReadLine();
-
-          if(int.TryParse(number2Str, out number2))
-          {
-              anser = number1 + number2;
-              Console.WriteLine("You Wrote number2:" + number2);
-              Console.WriteLine("The Awnser is:" + anser);
-          }
-          //WriteLine is method btw
+          anser = number1 + number2;
+          Console.WriteLine("You Wrote number2:" + number2);
+          Console.WriteLine("The Awnser is:" + anser);
+      }
+      //WriteLine is method btw
+  }
+}
+else if (um == names[1])
+{
+  Console.WriteLine("Write your first num");
+  string numbernstr1 = Console.ReadLine();
+  if (int.TryParse(numbernstr1, out number1))
+  {
+      string numbernstr2 = Console.ReadLine();
+      //methd
+      if (int.TryParse(numbernstr2, out number2))
+      {
+          anser = number1 - number2;
+          Console.WriteLine("Your awnser is:" + anser);
       }
   }
-  else if (um == names[1])
+}
+else if (um == names[2])
+{
+  Console.WriteLine("Write your first num");
+  string num1str = Console.ReadLine();
+  if (int.TryParse(num1str, out number1))
   {
-      Console.WriteLine("Write your first num");
-      string numbernstr1 = Console.ReadLine();
-      if (int.TryParse(numbernstr1, out number1))
+      Console.WriteLine("write number 2");
+      string num2str = Console.ReadLine();
+      if (int.TryParse(num2str, out number2))
       {
-          string numbernstr2 = Console.ReadLine();
-          //methd
-          if (int.TryParse(numbernstr2, out number2))
-          {
-              anser = number1 - number2;
-              Console.WriteLine("Your awnser is:" + anser);
-          }
+          anser = number1 * number2;
+          Console.WriteLine("Your anser is:" + anser);
       }
   }
-  else if (um == names[2])
+}
+else if (um == names[3])
+{
+  Console.WriteLine("Write your first num");
+  string num11str = Console.ReadLine();
+  if (int.TryParse(num11str, out number1))
   {
-      Console.WriteLine("Write your first num");
-      string num1str = Console.ReadLine();
-      if (int.TryParse(num1str, out number1))
+      Console.WriteLine("write number 2");
+      string num22str = Console.ReadLine();
+      if (int.TryParse(num22str, out number2))
       {
-          Console.WriteLine("write number 2");
-          string num2str = Console.ReadLine();
-          if (int.TryParse(num2str, out number2))
-          {
-              anser = number1 * number2;
-              Console.WriteLine("Your anser is:" + anser);
-          }
+          anser = number1/number2;
+          Console.WriteLine("Your anser is:" + anser);
       }
   }
-  else if (um == names[3])
-  {
-      Console.WriteLine("Write your first num");
-      string num11str = Console.ReadLine();
-      if (int.TryParse(num11str, out number1))
-      {
-          Console.WriteLine("write number 2");
-          string num22str = Console.ReadLine();
-          if (int.TryParse(num22str, out number2))
-          {
-              anser = number1/number2;
-              Console.WriteLine("Your anser is:" + anser);
-          }
-      }
-  }
-  else
-  {
-      Console.WriteLine("go back and do it again");
-      Main(args);
+}
+else
+{
+  Console.WriteLine("go back and do it again");
+  Main(args);
 
-      um = null;
-  }
-  */
+  um = null;
+}
+      var asciiIndex = (num -2) * 3 + 65;
+    for (int i = 0; i < 3; i++) {
 
     }
-    
+    if (num == 9) {
+        add z
+    }
+*/
+
+}
+
