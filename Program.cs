@@ -27,8 +27,8 @@ namespace calc
         public static int[] nums = new int[] {1,9,4,3,7,5,3,6,2 };
         public static void Main(string[] args)
         {
-            LetterCombinationForPhoneNumber.letterCombinationForPhoneNumber();
-            
+            //LetterCombinationForPhoneNumber.letterCombinationForPhoneNumber();
+            CombinationSum.combinationSum();
             //SortandFind.TargetIndices(nums, target);
             //findstartandendofprob.Findstartandendofprob();
            // calc._sumfindaddtothis.find();
