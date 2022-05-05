@@ -31,6 +31,7 @@
     <None Remove="LeetCodeProgs\ValidPalindomell\" />
     <None Remove="LeetCodeProgs\WordSearch\" />
     <None Remove="LeetCodeProgs\Permutations\" />
+    <None Remove="Combinations\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BinarySory\" />
@@ -58,5 +59,6 @@
     <Folder Include="LeetCodeProgs\ValidPalindomell\" />
     <Folder Include="LeetCodeProgs\WordSearch\" />
     <Folder Include="LeetCodeProgs\Permutations\" />
+    <Folder Include="Combinations\" />
   </ItemGroup>
 </Project>
