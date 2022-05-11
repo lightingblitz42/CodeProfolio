@@ -27,7 +27,10 @@ namespace calc
         public static int[] nums = new int[] {1,9,4,3,7,5,3,6,2 };
         public static void Main(string[] args)
         {
-            Combinations.CombinationSumRetry.combinationSumRetry();
+            ValidParenthasis.validParenthasis();
+            //LongestValidParenthasis.longestValidParenthasis();
+            //ReadCSV.readCSV();
+            //Combinations.CombinationSumRetry.combinationSumRetry();
             //LetterCombinationForPhoneNumber.letterCombinationForPhoneNumber();
             //MyCombinationSum.combinationSum();
             //SortandFind.TargetIndices(nums, target);
