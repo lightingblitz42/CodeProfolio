@@ -4,12 +4,12 @@ namespace calc
 {
     public class ValidParenthasis
     {
-        public static string s = ")()(()";
-        public static bool decide = true;
-        public static void validParenthasis()
+        //public static string s = ")()))(((()";
+        
+        public static bool validParenthasis(List<char> myCharLis)
         {
-           List<char> myCharLis = new List<char>(s.ToCharArray()); 
-            if (s.Length == 0 || s.Length % 2 == 1)
+           
+            if (myCharLis.Count == 0 || myCharLis.Count % 2 == 1)
             {
                 Console.WriteLine("Nothing in here");
             }
@@ -29,19 +29,19 @@ namespace calc
             if (right.Count != left.Count)
             {
                 Console.WriteLine(false);
-                return;
+                return false;
             }
             for (int i = 0; i < right.Count || i < left.Count; i++)
             {
                 if (right[i] > left[i])
                 {
                     Console.WriteLine("False");
-                    return;
+                    return false;
                 }
             }
 
 
-                Console.WriteLine(decide);
+            return true;
            
         }
     }

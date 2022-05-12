@@ -27,7 +27,7 @@ namespace calc
         public static int[] nums = new int[] {1,9,4,3,7,5,3,6,2 };
         public static void Main(string[] args)
         {
-            ValidParenthasis.validParenthasis();
+            LongestValidParenthasis.longestValidParenthasis();
             //LongestValidParenthasis.longestValidParenthasis();
             //ReadCSV.readCSV();
             //Combinations.CombinationSumRetry.combinationSumRetry();

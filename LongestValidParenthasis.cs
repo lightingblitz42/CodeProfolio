@@ -42,15 +42,42 @@ namespace calc
                     numberOfRighties += 1;
                 }
             }
+            
             Console.WriteLine(numberOfRighties + ", " + numberOfLefties);
-            for (int m = 0; m < myCharArr.Length; m++)
-            {
-                for (int j = 0; j < myCharArr.Length; j++)
-                {
-
-                }
-            }
+            refreshingBreeze(new List<char>(myCharArr));
            // myCode(numberOfLefties, 0, 0);
+
+        }
+
+
+        public static void refreshingBreeze(List<char> Jazz)
+        {
+            if (Jazz.Count <= 1)
+            {
+                Console.Write("f");
+                return;
+            }
+            if (ValidParenthasis.validParenthasis(Jazz) == true)
+            {
+                foreach (var item in Jazz)
+                {
+                    Console.Write(item);
+                }
+                Console.WriteLine("" + Jazz.Count);
+                return;
+                
+            }
+            else
+            {
+                
+                List<char> other = new List<char>(Jazz);
+                other.RemoveAt(other.Count - 1);
+                Jazz.RemoveAt(0);
+                refreshingBreeze(other); 
+                refreshingBreeze(Jazz);
+               
+            }
+
 
         }
        
