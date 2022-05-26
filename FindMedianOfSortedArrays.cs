@@ -3,7 +3,7 @@ namespace calc
 {
     public class FindMedianOfSortedArrays
     {
-        public static int[] nums1 = new int[] {1, 2, 4};
+        public static int[] nums1 = new int[] {};
         public static int[] nums2 = new int[] {1, 5, 9};
         public static void findMedianOfSortedArrays()
         {
@@ -29,13 +29,13 @@ namespace calc
                 }
                 k++;
             }
-            if (l < nums2.Length)
+            while (l < nums2.Length)
             {
                 combinationsOfArray[k] = nums2[l];
                 l += 1;
                 k += 1;
             }
-            if (j < nums1.Length)
+            while (j < nums1.Length)
             {
                 combinationsOfArray[k] = nums1[j];
                 j += 1;
@@ -43,12 +43,12 @@ namespace calc
             }
             foreach (var item in combinationsOfArray)
             {
-                Console.Write(item);
+                Console.Write(item + "ds");
             }
             Console.WriteLine();
             if (combinationsOfArray.Length % 2 == 1)
             {
-                Console.WriteLine(combinationsOfArray[combinationsOfArray.Length / 2]);
+                Console.WriteLine(combinationsOfArray[combinationsOfArray.Length / 2] + "d");
             }
             else
             {
